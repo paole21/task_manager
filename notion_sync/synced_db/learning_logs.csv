@@ -1,0 +1,11 @@
+重要度,メモ・参考リンク,ロールアップ,作成日,関連タスク,理解度,概要,開発プロダクト,メモ・ノート名
+★★,,"{'type': 'array', 'array': [], 'function': 'show_original'}",2025-06-07,,★★★,,,CNNについて
+★★★,,"{'type': 'array', 'array': [], 'function': 'show_original'}",2025-06-07,,★,,,機械学習と深層学習について
+★,,"{'type': 'array', 'array': [], 'function': 'show_original'}",2025-06-07,,,勾配の陳腐化と、勾配の更新が疎になる、というのはどういった意味か,,勾配の陳腐化と「更新が疎になる」とは
+★,,"{'type': 'array', 'array': [], 'function': 'show_original'}",2025-06-07,,,,,one-hot化とは
+★★,,"{'type': 'array', 'array': [], 'function': 'show_original'}",2025-06-07,,,,,RESTとRPCの違い
+★★,,"{'type': 'array', 'array': [], 'function': 'show_original'}",2025-06-07,,,,,データベースとデータウェアハウスの違い
+★★,,"{'type': 'array', 'array': [], 'function': 'show_original'}",2025-06-07,,,,,Cookieとは
+★,,"{'type': 'array', 'array': [], 'function': 'show_original'}",2025-06-07,,,streamlitの概要と利便性について,,streamlitの概要
+★,,"{'type': 'array', 'array': [], 'function': 'show_original'}",2025-05-21,,★,MySQLのDockerセットアップに関するTips,タスクマネージャー,DockerとMySQL
+★★★,,"{'type': 'array', 'array': [], 'function': 'show_original'}",2025-05-21,,★★,,タスクマネージャー,Dockerの基礎
