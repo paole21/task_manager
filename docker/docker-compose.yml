@@ -1,33 +1,41 @@
-version: '3.9'
-
 services:
-  web:
-    build: ..
-    container_name: flask_app
-    command: flask run --host=0.0.0.0
+  # バックエンドサービス
+  backend:
+    build:
+      context: ..
+      dockerfile: docker/Dockerfile
     ports:
       - "5000:5000"
     volumes:
-      - ../:/app
+      - ../app:/app/app
+      - ../config:/app/config
     environment:
+      - FLASK_APP=app
       - FLASK_ENV=development
-      - DATABASE_URL=mysql+pymysql://user:password@db:3306/task_manager
+      - DATABASE_URL=mysql://user:password@db:3306/task_manager
     depends_on:
-      - db
+      db:
+        condition: service_healthy
+    command: >
+      sh -c "sleep 10 && flask run --host=0.0.0.0"
 
+  # データベースサービス
   db:
     image: mysql:8.0
-    container_name: mysql_db
-    restart: always
-    environment:
-      MYSQL_DATABASE=${MYSQL_DATABASE}
-      MYSQL_USER=${MYSQL_USER}
-      MYSQL_PASSWORD=${MYSQL_PASSWORD}
-      MYSQL_ROOT_PASSWORD=${MYSQL_ROOT_PASSWORD}
     ports:
       - "3306:3306"
+    environment:
+      - MYSQL_ROOT_PASSWORD=rootpassword
+      - MYSQL_DATABASE=task_manager
+      - MYSQL_USER=user
+      - MYSQL_PASSWORD=password
     volumes:
-      - db_data:/var/lib/mysql
+      - mysql_data:/var/lib/mysql
+    healthcheck:
+      test: ["CMD", "mysqladmin", "ping", "-h", "localhost", "-u", "root", "-prootpassword"]
+      interval: 5s
+      timeout: 5s
+      retries: 5
 
 volumes:
-  db_data: 
+  mysql_data: 
