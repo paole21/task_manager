@@ -19,7 +19,7 @@ jobs:
       - name: Install dependencies
         run: pip install -r requirements.txt
       - name: Run Notion Sync
-        run: python scripts/notion_sync.py
+        run: python notion_sync/notion_sync.py
       - name: Commit and push
         run: |
           git config user.name "github-actions"
