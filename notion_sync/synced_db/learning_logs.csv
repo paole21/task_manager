@@ -1,4 +1,8 @@
 重要度,メモ・参考リンク,ロールアップ,作成日,関連タスク,理解度,概要,開発プロダクト,メモ・ノート名
+★★,https://qiita.com/gon0821/items/77369def082745d19c38,"{'type': 'array', 'array': [{'type': 'multi_select', 'multi_select': [{'id': '6aa4959a-10b3-4fa1-a9cb-7aab67e60f67', 'name': 'Docker', 'color': 'yellow'}]}], 'function': 'show_original'}",2025-06-08,20b30729-ab39-80c5-9567-e43ec0e740d3,★,,タスクマネージャー,Dockerfileとcompose.ymlについて
+★★,,"{'type': 'array', 'array': [{'type': 'multi_select', 'multi_select': [{'id': '1db08776-6945-4702-8c92-79318a828ab3', 'name': 'Python', 'color': 'brown'}, {'id': 'e97bb924-6e53-4478-8645-53e52fd1f38d', 'name': 'Flask', 'color': 'orange'}]}], 'function': 'show_original'}",2025-06-08,20b30729-ab39-804d-9b0f-c2f0b1c94d19,★,Flask (2.3.3): Webアプリケーションフレームワーク,タスクマネージャー,Flask使用時の主要ライブラリ
+★★★,,"{'type': 'array', 'array': [{'type': 'multi_select', 'multi_select': [{'id': '6aa4959a-10b3-4fa1-a9cb-7aab67e60f67', 'name': 'Docker', 'color': 'yellow'}]}], 'function': 'show_original'}",2025-06-08,20b30729-ab39-80c5-9567-e43ec0e740d3,★★,,タスクマネージャー,システムにおけるDockerの位置づけ
+★★,,"{'type': 'array', 'array': [{'type': 'multi_select', 'multi_select': [{'id': '1db08776-6945-4702-8c92-79318a828ab3', 'name': 'Python', 'color': 'brown'}, {'id': 'e97bb924-6e53-4478-8645-53e52fd1f38d', 'name': 'Flask', 'color': 'orange'}]}], 'function': 'show_original'}",2025-06-07,20b30729-ab39-804d-9b0f-c2f0b1c94d19,★★,,,Python仮想環境（venv）の基礎
 ★★,,"{'type': 'array', 'array': [], 'function': 'show_original'}",2025-06-07,,★★★,,,CNNについて
 ★★★,,"{'type': 'array', 'array': [], 'function': 'show_original'}",2025-06-07,,★,,,機械学習と深層学習について
 ★,,"{'type': 'array', 'array': [], 'function': 'show_original'}",2025-06-07,,,勾配の陳腐化と、勾配の更新が疎になる、というのはどういった意味か,,勾配の陳腐化と「更新が疎になる」とは
@@ -7,5 +11,5 @@
 ★★,,"{'type': 'array', 'array': [], 'function': 'show_original'}",2025-06-07,,,,,データベースとデータウェアハウスの違い
 ★★,,"{'type': 'array', 'array': [], 'function': 'show_original'}",2025-06-07,,,,,Cookieとは
 ★,,"{'type': 'array', 'array': [], 'function': 'show_original'}",2025-06-07,,,streamlitの概要と利便性について,,streamlitの概要
-★,,"{'type': 'array', 'array': [], 'function': 'show_original'}",2025-05-21,,★,MySQLのDockerセットアップに関するTips,タスクマネージャー,DockerとMySQL
-★★★,,"{'type': 'array', 'array': [], 'function': 'show_original'}",2025-05-21,,★★,,タスクマネージャー,Dockerの基礎
+★,,"{'type': 'array', 'array': [{'type': 'multi_select', 'multi_select': [{'id': '6aa4959a-10b3-4fa1-a9cb-7aab67e60f67', 'name': 'Docker', 'color': 'yellow'}]}], 'function': 'show_original'}",2025-05-21,20b30729-ab39-80c5-9567-e43ec0e740d3,★,MySQLのDockerセットアップに関するTips,タスクマネージャー,DockerとMySQL
+★★★,,"{'type': 'array', 'array': [{'type': 'multi_select', 'multi_select': [{'id': '6aa4959a-10b3-4fa1-a9cb-7aab67e60f67', 'name': 'Docker', 'color': 'yellow'}]}], 'function': 'show_original'}",2025-05-21,20b30729-ab39-80c5-9567-e43ec0e740d3,★★,,タスクマネージャー,Dockerの基礎

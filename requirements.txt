@@ -23,3 +23,7 @@ flake8==7.0.0
 
 # 追加されたWerkzeugバージョン
 Werkzeug==2.3.7 
+
+# notion_sync.py用ライブラリ
+requests
+pandas
